@@ -254,6 +254,7 @@
 				CLANG_ANALYZER_DIVIDE_BY_ZERO = NO;
 				CLANG_ANALYZER_NULL_DEREFERENCE = NO;
 				CODE_SIGN_IDENTITY = "-";
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = Injector/Info.plist;
 				MARKETING_VERSION = 1.5;
 				MODULE_NAME = com.hermitcrabs.insanelymac.Injector;
@@ -271,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Injector/Info.plist;
 				MARKETING_VERSION = 1.5;
 				MODULE_NAME = com.hermitcrabs.insanelymac.Injector;
