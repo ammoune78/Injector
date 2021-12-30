@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.hermitcrabs.insanelymac.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -15,7 +15,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.4</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -35,7 +35,7 @@
 				<string>pci1b21,612</string>
 			</array>
 			<key>IOProbeScore</key>
-			<integer>11000</integer>
+			<integer>2000</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>Vendor Name</key>
@@ -111,7 +111,7 @@
 				<string>pci8086,8c02</string>
 			</array>
 			<key>IOProbeScore</key>
-			<integer>11000</integer>
+			<integer>2000</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>Vendor Name</key>
@@ -130,7 +130,7 @@
 				<string>pci8086,8c82</string>
 			</array>
 			<key>IOProbeScore</key>
-			<integer>11000</integer>
+			<integer>2000</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>Vendor Name</key>
@@ -150,7 +150,7 @@
 				<string>pci8086,244b</string>
 			</array>
 			<key>IOProbeScore</key>
-			<integer>11000</integer>
+			<integer>2000</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>Vendor Name</key>
@@ -169,7 +169,7 @@
 				<string>pci8086,2821</string>
 			</array>
 			<key>IOProbeScore</key>
-			<integer>11000</integer>
+			<integer>2000</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>Vendor Name</key>
@@ -177,7 +177,7 @@
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2018 InsanelyMac. All rights reserved.</string>
+	<string>The HermitCrabs Lab. Copyright 2010-2022, All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict/>
 	<key>OSBundleRequired</key>
